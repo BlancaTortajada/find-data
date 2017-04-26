@@ -45,13 +45,18 @@ $path: "/public/images/";
 }
 
 .related {
-  margin-top: 70px;
+  margin-top: 150px;
   h3:first-child {
+    border-top: 10px solid #F8F8F8;
     margin-top: 0;
     padding-top: 20px;
   }
   input {
     width: 100%;
+  }
+
+  ul li {
+    margin-bottom: 5px;
   }
 }
 
