@@ -30,9 +30,13 @@ $path: "/public/images/";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
-.about {
+.box {
   background: #F8F8F8;
   padding: 10px 30px;
+}
+
+#feedback {
+  margin-top: 50px;
 }
 
 .related {
