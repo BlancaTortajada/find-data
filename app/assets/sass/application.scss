@@ -30,6 +30,14 @@ $path: "/public/images/";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
+#global-header #logo {
+  background: none;
+}
+
+#global-header-bar {
+  display: none;
+}
+
 .heading-large {
   margin-top: 70px;
   margin-bottom: 40px;
@@ -38,6 +46,10 @@ $path: "/public/images/";
 .box {
   background: #F8F8F8;
   padding: 10px 30px;
+}
+
+.toggle {
+  font-size: 16px;
 }
 
 #feedback {
@@ -88,8 +100,11 @@ section .year-expand {
   }
 }
 
-span.open-close {
-  font-size: 16px;
+section input.button {
+  margin-top: 30px;
+}
+
+section span.toggle {
   float: right;
   font-weight: normal;
   display: inline-block;
@@ -111,9 +126,26 @@ dl.metadata {
   }
 }
 
+table th, table td {
+  padding-right: 35px;
+  padding-left: 0;
+}
+
+table tr td:last-child {
+  padding-right: 0;
+}
+
+table th.title, table td.title {
+  width: 338px;
+}
+
 .feedback-form .multiple-choice {
   float: none;
   padding-bottom: 1em;
+}
+
+section table {
+  margin-bottom: 20px;
 }
 
 details {
