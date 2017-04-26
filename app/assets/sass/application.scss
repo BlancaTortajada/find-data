@@ -155,3 +155,64 @@ details {
 #feedback .button {
   margin-bottom: .7em
 }
+
+// Search results styling
+
+main.results-page#content {
+  max-width: 100%;
+  .grid-row {
+    max-width: 960px;
+    margin: auto;
+  }
+}
+
+main.results-page#content .grid-row.masthead {
+  max-width: 100%;
+  background: #F8F8F8;
+  padding: 70px 0;
+  .column-full {
+    max-width: 960px;
+    margin: auto;
+    float: none;
+    h1 {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.result {
+  border-bottom: 1px solid #BFC1C3;
+  padding-bottom: 25px;
+  h2 {
+    margin-bottom: 10px;
+  }
+  dl.metadata {
+    font-size: 16px;
+    dt {
+      font-weight: normal;
+      width: 24%
+    }
+    dd {
+      width: 75%;
+    }
+  }
+}
+
+.filters {
+  p {
+    margin-bottom: 10px;
+  }
+  .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  input.button {
+    margin-top: 30px;
+  }
+}
+
+.related-searches ul li {
+  display: inline-block;
+  width: 49%;
+}
