@@ -30,6 +30,11 @@ $path: "/public/images/";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
+.heading-large {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
 .box {
   background: #F8F8F8;
   padding: 10px 30px;
@@ -40,9 +45,8 @@ $path: "/public/images/";
 }
 
 .related {
-  margin-top: 105px;
+  margin-top: 70px;
   h3:first-child {
-    border-top: 10px solid #DEE0E2;
     margin-top: 0;
     padding-top: 20px;
   }
@@ -51,6 +55,49 @@ $path: "/public/images/";
   }
 }
 
-details {
-  margin-top: 20px;
+section .year-expand {
+  overflow: hidden;
+  border-bottom: 1px solid #BFC1C3;
+  &:hover {
+    background: #F8F8F8;
+  }
+  h3 {
+    color: #005ea5;
+    display: inline-block;
+    float: left;
+    margin: 20px 0;
+  }
+  div {
+    float: right;
+    height: 30px;
+    span {
+      display: inline-block;
+      font-size: 36px;
+      color: #005ea5;
+      margin: 20px 0;
+    }
+  }
+}
+
+span.open-close {
+  font-size: 16px;
+  float: right;
+  font-weight: normal;
+  display: inline-block;
+}
+
+dl.metadata {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  dt, dd {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  dt {
+    width: 35%;
+    font-weight: bold;
+  }
+  dd {
+    width: 64%;
+  }
 }
