@@ -30,13 +30,13 @@ $path: "/public/images/";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
-.box {
-  background: #F8F8F8;
-  padding: 10px 30px;
-}
 
 #feedback {
   margin-top: 50px;
+}
+.feedback-form{
+  background: #F8F8F8;
+  padding: 1em 1em 0.2em 1em;
 }
 
 .related {
@@ -51,6 +51,15 @@ $path: "/public/images/";
   }
 }
 
+.feedback-form .multiple-choice {
+  float: none;
+  padding-bottom: 1em;
+}
+
 details {
   margin-top: 20px;
+}
+
+#feedback .button {
+  margin-bottom: .7em
 }
